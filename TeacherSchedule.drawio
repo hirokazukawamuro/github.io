@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.9">
   <diagram name="Page-1" id="f16pOZz3ePm_JeXIAM4Y">
-    <mxGraphModel>
+    <mxGraphModel dx="2284" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R-_2GTfpaySEEO73cIF7-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="655" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-3" value="TeacherSchedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-2" value="ScheduleTable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-4" value="EditModal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-5" value="EditScheduleModal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-6" value="DeleteScheduleModal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-7" value="AddScheduleModal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.063;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.629;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R-_2GTfpaySEEO73cIF7-3" target="R-_2GTfpaySEEO73cIF7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.404;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R-_2GTfpaySEEO73cIF7-3" target="R-_2GTfpaySEEO73cIF7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.6;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R-_2GTfpaySEEO73cIF7-4" target="R-_2GTfpaySEEO73cIF7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.571;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="R-_2GTfpaySEEO73cIF7-4" target="R-_2GTfpaySEEO73cIF7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.633;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.196;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R-_2GTfpaySEEO73cIF7-4" target="R-_2GTfpaySEEO73cIF7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-13" value="teacherId" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-14" value="shiftSchoolId" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-15" value="URL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R-_2GTfpaySEEO73cIF7-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="620" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-_2GTfpaySEEO73cIF7-19" value="store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="575" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
